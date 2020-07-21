@@ -95,12 +95,13 @@ html body h2 {
 	height: 600px;
 	transition: 0.3s;
 }
-@media (min-width:  0px) and (max-width: 576px){
+
+@media (max-width: 576px){
 	.photo{
   	display: none;
   }
   html body h1{
-  	font-size: 30px;
+  	font-size: 35px;
   	line-height: 57px;
   	margin-bottom: 20px;
   }
