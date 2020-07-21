@@ -1,0 +1,167 @@
+html body {
+	background-color: #FFDEAD;
+}
+
+.photo {
+	background-position: center;
+	background-size: 100%;
+	position: relative;
+}
+
+.container-head {
+	margin: 0;
+}
+html body h1 {
+	color: #800000;
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 80px;
+}
+html body h2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.08px;
+	color: #A0522D;
+
+}
+
+.container-head:before{
+	display: block;
+	position: relative;
+	content: "";
+	height: 177px;
+	width: 190px;
+	background-image: url('1_1 2.png');
+	background-position: center;
+	margin: 40px auto;
+}
+.container-head:after{
+	display: block;
+	position: relative;
+	content: "";
+	height: 177px;
+	width: 190px;
+	background-image: url('1_1 2.png');
+	background-position: center;
+	margin: 40px auto;
+}
+/*button*/
+
+.button {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	background-color: #FF69B4;
+	width: 186px;
+	height: 50px;
+	color: #fff;
+	border-radius: 4px;
+	padding: 10px 0;
+	outline: none;
+	transition: 0.2s;
+	font-size: 18px;
+	margin: 20px 0;
+	text-align: center;
+}
+.photo:hover{
+	transform: scale(1.02);
+}
+.vk {
+	margin-left: 20px;
+	margin-right: 150px;
+}
+.ig{
+	background-color: #E54269;
+}
+.ig:hover{
+	background-color: #c53b5c;
+}
+.vk:hover{
+	background-color: #e25da0
+}
+.button:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.photo{
+	height: 600px;
+	transition: 0.3s;
+}
+@media (min-width:  0px) and (max-width: 576px){
+	.photo{
+  	display: none;
+  }
+  html body h1{
+  	font-size: 47px;
+  	line-height: 57px;
+  	margin-bottom: 40px;
+  }
+  html body h2{
+  	font-size: 15px;
+  	line-height: 23px;
+  }
+  .button{
+  	width: 100%;
+  	text-align: center;
+  	margin: 15px 0;
+  }
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  html body h1{
+  	font-size: 30px;
+  	line-height: 40px;
+  }
+  html body h2{
+  	font-size: 17px;
+  	line-height: 23px;
+  }
+
+ .vk{
+  	margin-right: 0;
+  	margin-left: 0;
+  }
+  .button{
+  	width: 140px;
+  	font-size: 17px;
+  }
+  .photo{
+  	height: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  html body h1{
+  	font-size: 40px;
+  	line-height: 50px;
+  }
+  .vk{
+  	margin-right: 20px;
+  	margin-left: 0;
+  }
+  .button {
+  	width: 160px;
+  }
+  .photo{
+  	height: 450px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  html body h1{
+  	font-size: 40px;
+  	line-height: 50px;
+  }
+  .vk{
+  	margin-right: 35px;
+  }
+}
+@media (min-width: 1200px) {
+
+}
